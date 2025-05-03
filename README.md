@@ -35,9 +35,8 @@ The **AutoSuggest System** is a web-based NLP application that suggests the most
 
 Follow these instructions to get the AutoSuggest System up and running on your machine:
 
-✅ Step 1: Clone the Repository
-
 ```bash
+✅ Step 1: Clone the Repository
 git clone https://github.com/Deepanshu7573Bansal/Computation-Linguistics-and-NLP-Project.git
 cd Computation-Linguistics-and-NLP-Project
 
