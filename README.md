@@ -37,7 +37,7 @@ Follow these instructions to get the AutoSuggest System up and running on your m
 
 ✅ Step 1: Clone the Repository
 
-
+```bash
 git clone https://github.com/Deepanshu7573Bansal/Computation-Linguistics-and-NLP-Project.git
 cd Computation-Linguistics-and-NLP-Project
 
