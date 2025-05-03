@@ -17,8 +17,8 @@ The **AutoSuggest System** is a simple yet powerful NLP-based web application th
 
 - **Frontend:** HTML (with form-based input)
 - **Backend:** Python with Flask
-- **NLP Model:** `all-MiniLM-L6-v2` from Sentence Transformers
-- **Libraries:** NumPy, scikit-learn, torch
+- **Words or Documents Similarity methods:** Jaccard Simirality
+- **Libraries:** NumPy, pandas
 
 ---
 
