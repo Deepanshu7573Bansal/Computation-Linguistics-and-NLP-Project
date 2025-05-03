@@ -48,7 +48,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 ✅ Step 3: Install All Required Packages
-pip install flask torch sentence-transformers numpy scikit-learn
+pip install flask numpy pandas
 
 ✅ Step 5: Run the Flask App
 python app.py
