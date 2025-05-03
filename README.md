@@ -1,25 +1,58 @@
 # 🤖 AutoSuggest System
 
-The **AutoSuggest System** is a simple yet powerful NLP-based web application that suggests the most relevant passages based on a user’s query. It uses semantic similarity to understand user intent and returns contextually appropriate suggestions from a large text corpus.
+The **AutoSuggest System** is a web-based NLP application that suggests the most related word from a large text corpus based on user input.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Auto-suggestions using semantic search
-- 🧠 Contextual understanding via Sentence Transformers
-- 🧾 Top 5 relevant paragraphs from a large corpus
-- 🌐 Lightweight web interface (HTML + Flask backend)
+- 🔍 Suggests relevant content based on **jaccard similarity**
+- 📑 Displays **top 5 matched words** from the dataset
+- 🌐 Runs a simple and interactive **web interface** using Flask
 
 ---
 
 ## 🧠 Tech Stack
 
-- **Frontend:** HTML (with form-based input)
-- **Backend:** Python with Flask
-- **Words or Documents Similarity methods:** Jaccard Simirality
-- **Libraries:** NumPy, pandas
+- **Frontend**: HTML
+- **Backend**: Python with Flask
+- **Similarity method**: Jaccard Similarity
+- **Libraries**: Flask, NumPy, pandas
 
 ---
 
-## 📁 Project Structure
+## ⚙️ How It Works
+
+1. Load `Book_Corpus.txt` and split into paragraphs.
+2. Preprocess the corpus.
+3. Calcualte the probability and then similarity.
+4. Take user input through interface.
+5. Display the **top 5 most relevant words** to the user.
+
+---
+
+## 🛠️ How to Run This Project Locally (Step-by-Step)
+
+Follow these instructions to get the AutoSuggest System up and running on your machine:
+
+### ✅ Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Deepanshu7573Bansal/Computation-Linguistics-and-NLP-Project.git
+cd Computation-Linguistics-and-NLP-Project
+
+✅ Step 2: Create and Activate a Virtual Environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+✅ Step 3: Install All Required Packages
+pip install flask torch sentence-transformers numpy scikit-learn
+
+✅ Step 5: Run the Flask App
+python app.py
+
+✅ Step 6: Open in Your Browser
+Visit: http://localhost:5000
